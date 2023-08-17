@@ -1,0 +1,21 @@
+modLoader="javafml"
+loaderVersion="[44,)"
+license="YOU LICENSE"
+[[mods]]
+modId="examplemod"
+version="${mod_version}"
+displayName="ExampleMod"
+authors="ExampleMod"
+description="Example Mod"
+[[dependencies.examplemod]]
+modId="forge"
+mandatory=true
+versionRange="[44,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.examplemod]]
+modId="minecraft"
+mandatory=true
+versionRange="[${minecraft_version}]"
+ordering="NONE"
+side="BOTH"

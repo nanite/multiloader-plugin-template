@@ -1,0 +1,11 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        maven {
+            name = 'Creeperhost'
+            url = 'https://maven.creeperhost.net/'
+        }
+    }
+}
+
+include("common", "fabric", "forge")

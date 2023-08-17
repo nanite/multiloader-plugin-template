@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "examplemod",
+  "version": "${version}",
+
+  "name": "Example Mod",
+  "description": "example mod description",
+  "authors": [
+    "IamAuthor"
+  ],
+  "license": "My License",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.example.examplemod.ExampleModFabricClient"
+    ],
+    "main": [
+      "com.example.examplemod.ExampleModFabric"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}",
+    "java": ">=17"
+  }
+}
+  
