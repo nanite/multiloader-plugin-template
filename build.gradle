@@ -1,7 +1,7 @@
 import dev.nanite.mlp.tasks.SingleOutputJar
 
 plugins {
-    id("dev.nanite.mlp") version("0.0.3")
+    id("dev.nanite.mlp") version("0.0.4")
     id("java")
 
     id("fabric-loom") version("1.3.9") apply(false)
